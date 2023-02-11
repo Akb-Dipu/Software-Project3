@@ -1,0 +1,36 @@
+@media screen and (max-width:576px) {
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .banner{
+        margin: 1px;
+        width:fit-content;
+       
+    }
+    .banner .info{
+        padding-top: 85px;
+        text-align: start;
+        margin-left: 45px;
+    }
+    
+    
+.dipu img{
+    height: 200px;
+   
+}
+
+    .link{
+        display: flex;
+
+    
+    }
+    td{
+        background-color: rgb(159, 246, 217);
+    }
+.apps img{
+    height: 30px;
+  
+}
+}

@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+* p,li{
+    padding-top: 15px;
+}
+
+
+    
+.info h1{
+    font-family: 'Shadows Into Light', cursive;
+    
+}    
+
+main h1,footer h1{
+    color:darkslategrey;
+  
+
+}
+main p{
+    background-color:floralwhite;
+}
+
+.Skill{
+    list-style:none;
+}
+
+
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+
+
+
+/* header Section */
+.banner{
+    margin: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.banner p{
+    padding: 3px;
+    
+}
+.link{
+    display: flex;
+    gap: 15px;
+    padding-top: 55px;
+    justify-content:space-around;
+}
+.dipu img{
+
+   height: 270px; 
+}
+
+.apps{
+    text-align: center;
+
+}
+.apps img{
+    margin-left: 25px;
+}
+/* Hover styles */
+.apps img:hover{
+    transform: rotate(30deg);
+    transition: transform 0.5s;
+
+}
+.link:hover{
+    
+}
+
+/* font designing */
+#DIU{
+    color:blue;
+    font-style: italic;
+    font-weight:bolder;
+    font-family: 'Bungee', cursive;
+
+}
+#international{
+    color:rgb(95, 94, 94);
+    font-family: 'Bungee', cursive;
+}
+#uni{
+    color: green;
+    font-family: 'Bungee', cursive;
+
+}
+
+/* <!-- Career Objective,Job Experience,Skill --> */
+.CO,.JE{
+    padding-top: 30px;
+}
+
+.infos{
+    margin-left:95px ;
+    margin-right:10%;
+    
+}
+.infos div{
+    margin-bottom: 55px;
+}
+.infos div h1{
+    margin-bottom: 15px;
+}
+
+/* Academic Qualification */
+table,th,td{
+    border: 1px solid rgb(123, 253, 188);
+    
+}
+
+.academic{
+    text-align: center;
+    margin-top: 25px;
+}
+th{
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+
+.table1{
+    background-color: rgb(174, 246, 222);
+    margin-left:10%;
+    margin-right: 10%;
+    border: 1px solid rgb(215, 236, 228);
+  
+}
+tr td{
+
+    padding: 15px;
+
+}
+.pinfo ul{
+    list-style:decimal;
+   
+}
+/* Footer */
+footer{
+    margin-left: 8%;
+    padding-top: 35px;
+    padding-bottom: 120px;
+}
